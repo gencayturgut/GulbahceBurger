@@ -1,0 +1,57 @@
+.footerBox{
+    height: 100px;
+    background-color: grey;
+    display:block;
+}
+
+.contactButton{
+    display:relative;
+    float:left;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px;
+    background-color: grey;
+    cursor:pointer;
+    color: darkblue;
+}
+
+.locationButton{
+    display:relative;
+    float:right;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px;
+    background-color: grey;
+    cursor:pointer;
+    color: darkblue;
+}
+
+.contactElement{
+    display:grid;
+    height:100px;
+    padding-left:50px;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(199, 196, 196);
+}
+
+.contactElement img {
+    height:40px;
+}
+
+.locationBox {
+    background-color: rgb(199, 196, 196) ;
+    height:530px;
+    display:block;
+}
+
+.locationBox img{
+    height:500px;
+    float:right;
+}
+
+.addressInfo{
+    display: flex;
+    float:left;
+    margin-left:20px;
+    margin-top:400px;
+}

@@ -1,0 +1,29 @@
+.basket-container {
+  max-height: 400px !important;
+  overflow-y: auto !important;
+}
+
+.basket-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .basket-item__name,
+  .basket-item__type,
+  .basket-item__quantity,
+  .basket-item__total {
+    background-color: #9f9d9d;
+    padding: 10px;
+  }
+  
+  .basket-item__name h3,
+  .basket-item__type h3,
+  .basket-item__quantity h3,
+  .basket-item__total h3 {
+    margin: 0;
+  }
+  

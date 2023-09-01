@@ -1,0 +1,40 @@
+.box {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  width: 240px;
+  padding: 20px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  color: #363636;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor:pointer;
+}
+.item {
+  display:relative;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  margin-bottom: 10px;
+  
+}
+
+.itemName {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  float: left;
+}
+
+.itemPrice {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  float: right;
+}
+
+.price-name-container{
+  display: block;
+}

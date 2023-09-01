@@ -1,0 +1,11 @@
+Beef Burger,90,beef_burger
+Cheese Burger,70,cheeseburger
+Chicken Burger,60,chicken_burger
+Chicken Legs,45,chicken_legs
+Fizzy Drink,20,fizzy_drink
+Fries,25,fries
+Ice Cream,15,ice_cream
+Lemonade,13,lemonade
+Onion Rings,30,onion_rings
+Pizza Slice,50,pizza_slice
+Water,10,water

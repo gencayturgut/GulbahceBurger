@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c8c4cc;
+    height: 75px;
+    border: solid 1px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px 5px;
+    cursor: pointer;
+  }
+
+  .basket button {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 5px;
+    cursor: pointer;
+  }
+  .basket-price {
+    color: red;
+  }
+  
+  .basket button img {
+    height: 40px;
+    margin-left: 5px;
+  }
+  
+  .aboutusbutton {
+    border: 0;
+    background-color: #c8c4cc;
+    cursor: pointer;
+    color: darkblue;
+    font-size:15px;
+    margin-left: 12px;
+    margin-top: 3px;
+  }
+  
+  .displaytext {
+    display: block;
+    border: solid 1px;
+    background-color: #e8e8e8;
+  }
+  

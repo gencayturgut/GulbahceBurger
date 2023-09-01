@@ -1,0 +1,39 @@
+.basket-total {
+    display: grid;
+    grid-template-columns: auto 1fr auto; 
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+  }
+  
+  .basket-image {
+    width: 50px;
+    align-self: center;
+    justify-self: start; 
+  }
+    
+  .priceColor {
+    color: red;
+  } 
+  
+  .totalprice {
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-self: center;
+    justify-self: start; 
+  }
+  
+  .purchasebutton {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    justify-self: end; 
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

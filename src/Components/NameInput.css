@@ -1,0 +1,21 @@
+.formClass{
+    border:solid 1px;
+    background-color: rgb(225, 220, 220);
+    height: 40px;
+}
+
+.inputClass{
+    height:20px;
+    border: solid 1px;
+    margin-top:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.submitClass{
+    background-color: rgb(195, 195, 195);
+    border: solid 0.5px;
+    border-color: rgb(195, 195, 195);
+    cursor:pointer;
+    margin-left: 7px;
+}
